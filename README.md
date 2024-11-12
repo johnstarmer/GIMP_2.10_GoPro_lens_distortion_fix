@@ -9,7 +9,7 @@ On the top level dropdown menu in Gimp to Scripts > Python Fu > Console.
 
 ![PythonFuMenuLocation](https://github.com/johnstarmer/GIMP_2.10_GoPro_lens_distortion_fix/blob/main/ConsoleMenuLocation.png "Python Fu Console")
 
-Once the console is open you'll want to run the following AFTER updating the file path to your script and saving it. [e.g. execfile("/Users/jstarmer/Desktop/batch_lens_distortion.py")]
+Once the console is open you'll want to run the following AFTER updating the file path to your script and saving it.  (e.g. A MacOS user might use ```execfile("/Users/jstarmer/Desktop/batch_lens_distortion.py")``` and a Windows user might use ```exectfile("C:/Users/username/Desktop/batch_lens_distortion.py")```
 
 Run:
 ```

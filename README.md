@@ -18,7 +18,8 @@ input_folder = "/Users/jstarmer/Desktop/D_input"
 output_folder = "/Users/jstarmer/Desktop//D_output"  
 (Path to output folder)
 
-#To run the script:
+#To run the script, run the following in the Python Fu console:
+
 batch_lens_distortion(input_folder, output_folder)
 
 The script will save the altered files to the D_output folder (in this example) and leave the originals in the D_input folder.

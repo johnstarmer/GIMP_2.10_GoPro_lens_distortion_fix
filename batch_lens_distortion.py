@@ -15,7 +15,7 @@ def batch_lens_distortion(input_folder, output_folder):
             drawable = image.active_layer
 
             # Apply Lens Distortion
-            pdb.plug_in_lens_distortion(image, drawable, 0.0, 0.0, -100.0, 0.0, 0.0)  # Adjust values as needed
+            pdb.plug_in_lens_distortion(image, drawable, 0.0, 0.0, -100.0, 0.0, 0.0, 0.0)  # Adjust values as needed
 
             # Save the modified image
             pdb.gimp_file_save(image, drawable, output_file, output_file)

@@ -5,7 +5,7 @@ A python script to remove distortion from underwater GoPro images in Gimp-2.10.
 # To load the script:
 On the top level dropdown menu in Gimp to Scripts > Python Fu > Console.
 
-![PythonFuMenuLocation](https://github.com/johnstarmer/GIMP_2.10_GoPro_lens_distortion_fix/blob/main/ConsoleMenuLocation.png "Python Fu Console"
+![PythonFuMenuLocation](https://github.com/johnstarmer/GIMP_2.10_GoPro_lens_distortion_fix/blob/main/ConsoleMenuLocation.png "Python Fu Console")
 
 Once the console is open you'll want to run the following AFTER updating the file path to your script and saving it. [e.g. execfile("/Users/jstarmer/Desktop/batch_lens_distortion.py")]
 

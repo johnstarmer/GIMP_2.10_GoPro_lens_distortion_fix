@@ -1,7 +1,7 @@
 # GIMP_2.10_GoPro_lens_distortion_fix
 A python script to remove distortion from underwater GoPro images in Gimp-2.10.
 -----
-# GoPro cameras have a Wide and Linear setting. The instructions below describe correcting Wide setting distortion. The primary difference is that a negative (e.g. -100) value is needed for Wide distortion and a positive value is needed to correct Linear distortion. batch_lens_distortion100.py is the correct script to use for linear distortion.  Note that a second round of dedistortion may be needed. Updating the script value to ~25 (plus or minus) for a second run takes care of the remaining distortion.
+GoPro cameras have a Wide and Linear setting. The instructions below describe correcting Wide setting distortion. The primary difference is that a negative (e.g. -100) value is needed for Wide distortion and a positive value is needed to correct Linear distortion. batch_lens_distortion100.py is the correct script to use for linear distortion.  Note that a second round of dedistortion may be needed. Updating the script value to ~25 (plus or minus) for a second run takes care of the remaining distortion.
 
 # To load the script:
 Download the [batch_lens_diistortion.py file](https://github.com/johnstarmer/GIMP_2.10_GoPro_lens_distortion_fix/blob/main/batch_lens_distortion.py).
